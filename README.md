@@ -9,7 +9,11 @@ There will be a path that shows where is data of .jsonl and images. Copy it! It 
 pip install -r requirements.txt
 ```
 
-4. Modify path<br>
+4. Download the pre-trained models
+Address: https://pan.baidu.com/s/1KzRPwRo9BQORBdYLhoed_A
+Password: 1122
+
+5. Modify path<br>
 In *triad_tuples.py*, change *annotations_fold* and *images_fold* to the path of data of .jsonl and images.<br>
 In *predict_training.sh*, change *annotations_fold* to the path of data of .jsonl.<br>
 The path is copied in step 2.
@@ -53,7 +57,3 @@ sudo chmod a+x predict_training.sh
 # P.S.
 If it is interrupted when run *predict_training.sh*, change *train.jsonl.bak* and *dev_unseen.json.bak* to *train.jsonl* and *dev_unseen.jsonl* before run it again or run any other MMF models.<br>
 Because I use KFold technique, *train.jsonl* and *dev_unseen.jsonl* are changed during runing.
-
-## Pre-trained models download
-address: https://pan.baidu.com/s/1KzRPwRo9BQORBdYLhoed_A
-password: 1122
