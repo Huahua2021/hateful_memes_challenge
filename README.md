@@ -9,7 +9,7 @@ There will be a path that shows where is data of .jsonl and images. Copy it! It 
 pip install -r requirements.txt
 ```
 
-4. Download the pre-trained models. 
+4. Download the pre-trained models.<br>
 Address: https://pan.baidu.com/s/1KzRPwRo9BQORBdYLhoed_A
 Password: 1122
 
